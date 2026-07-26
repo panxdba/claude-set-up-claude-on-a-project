@@ -1,3 +1,4 @@
+#NOTES.md
 I added conventions as it was not present
 
 

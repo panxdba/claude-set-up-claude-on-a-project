@@ -2,7 +2,8 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
-This project is test to complete hands on assignment for claude code 
+This project uses Express.js REST API with in-memory storage for user management.
+
 
 ## Commands
 
@@ -22,10 +23,10 @@ Run tests matching a name pattern:
 node --test --test-name-pattern "GET /users"
 ```
 
-## Conventions 
-- TypeScript strict; no `any`
-- On failure, throw AppError - never return null
-- All API responses go through formatResponse()
+## Conventions
+- Use async/await, not callbacks
+- Return proper HTTP status codes (200 for success, 201 for created, 404 for not found)
+
 
 ## Architecture
 
